@@ -1,6 +1,6 @@
 html {
   line-height: 1.5;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   box-sizing: border-box;
   text-align: center;
 }
@@ -28,6 +28,10 @@ header {
   padding: .5em 0 0;
 }
 
+.nav a:hover {
+  background-color: #a63f38;
+}
+
 .nav li {
   display: inline-block;
 }
@@ -50,5 +54,9 @@ h1 {
 }
 
 div {
-  display: inline-block;
+  display: block;
+}
+
+* {
+  box-sizing: inherit;
 }
